@@ -1,0 +1,72 @@
+.team_bg_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.bg_team_match {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.team_banner {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.latest_match_heading {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  align-self: flex-start;
+}
+.match_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+.KKR {
+  background-color: #5755a7;
+}
+.CSK {
+  background-color: #f7db00;
+}
+.RCB {
+  background-color: #a4261d;
+}
+.KXP {
+  background-color: #d91c1f;
+}
+.MI {
+  background-color: #13418b;
+}
+.RR {
+  background-color: #da237b;
+}
+.SH {
+  background-color: #f26d22;
+}
+.DC {
+  background-color: #13418b;
+}
+@media screen and (max-width: 767px) {
+  .team_bg_container {
+    width: 100%;
+    padding: 10px;
+  }
+  .bg_team_match {
+    width: 95%;
+  }
+  .team_banner {
+    height: 150px;
+    margin-bottom: 5px;
+  }
+  .latest_match_heading {
+    font-size: 20px;
+    margin: 8px;
+  }
+}

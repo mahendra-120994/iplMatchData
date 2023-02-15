@@ -1,0 +1,89 @@
+.latest_match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #0f172a;
+  border-radius: 8px;
+  width: 100%;
+}
+.latest_match_details_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+.latest_match_details_1 {
+  width: 30%;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  margin: 5px;
+}
+.latest_match_img {
+  width: 30%;
+  margin: 5px;
+}
+.latest_match_details_2 {
+  width: 30%;
+  color: #ffffff;
+  font-family: 'Bree serif';
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.competing_img {
+  width: 200px;
+}
+.venue,
+.paras,
+.result {
+  font-size: 16px;
+}
+.headings,
+.paras {
+  margin: 5px;
+}
+@media screen and (max-width: 767px) {
+  .latest_match {
+    flex-direction: column;
+  }
+  .latest_match_details_box {
+    justify-content: space-between;
+    width: 95%;
+  }
+  .latest_match_details_1 {
+    width: 60%;
+  }
+  .latest_match_img {
+    text-align: end;
+  }
+  .competing_img {
+    width: 100px;
+  }
+  .competing_name,
+  .date {
+    font-size: 16px;
+  }
+  .headings {
+    font-size: 14px;
+    margin: 3px;
+    font-weight: 400;
+  }
+  .ruler {
+    border: solid 1px #475569;
+    width: 100%;
+    margin: 2px;
+  }
+  .latest_match_details_2 {
+    width: 95%;
+    align-items: flex-start;
+  }
+  .venue,
+  .paras,
+  .result {
+    font-size: 12px;
+    margin: 3px;
+  }
+}
